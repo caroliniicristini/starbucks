@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #2D2D2D;
+    margin: 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #428b72;
+}
+.menu img{
+    width: 100px;
+}
+.menu nav a {
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn-produtos{
+    background: #428b72;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.btn-contato{
+    background: #2D2D2D;
+    border: 1px solid #428b72;
+    color: #428b72;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.wrapperList, .menu{
+    padding: 20px;
+}
+.wrapperList h4{
+    color: #F6F6F6;
+}
+
+.frame, .figure{
+    list-style: none;
+    display: flex;
+    overflow-x: auto;
+    padding: 0;
+}
+.containerList{
+    display: flex;
+    flex-direction: column;
+    background: white;
+
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    max-width: 240px;
+}
+.containerList img{ 
+    width: 100%;
+}
+.containerList span{
+    text-align: center;
+}
+.containerList p{
+    text-align: center;
+    color: #6eb79e;
+}
+.containerList p:hover{
+    color: #428b72;
+}
